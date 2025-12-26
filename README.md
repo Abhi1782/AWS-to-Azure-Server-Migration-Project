@@ -1,2 +1,4 @@
 # AWS-to-Azure-Server-Migration-Project
-The objective of this project is to migrate workloads from AWS (Mumbai Region) to Microsoft Azure (India Region) using Azure Migrate, following a controlled, secure, and validated migration flow.
+
+# 📌 1. Project Overview
+  This project demonstrates a real-world migration of an AWS server to Azure using Azure Migrate, covering assessment, discovery, application validation, and final migration.
