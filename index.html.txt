@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps · DevSecOps · Cloud Tools</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+/* Header */
+header {
+    background: #020617;
+    padding: 18px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    color: #38bdf8;
+    font-size: 22px;
+}
+nav a {
+    color: #e5e7eb;
+    margin-left: 30px;
+    font-size: 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: white;
+    padding: 110px 40px;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.hero p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+    color: #cbd5f5;
+}
+
+/* Sections */
+section {
+    padding: 70px 60px;
+}
+section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 35px 30px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #475569;
+}
+
+/* Backgrounds */
+.devsecops {
+    background: linear-gradient(to right, #fef3c7, #fefce8);
+}
+.cloud {
+    background: linear-gradient(to right, #e0f2fe, #f8fafc);
+}
+.monitoring {
+    background: linear-gradient(to right, #ecfeff, #f8fafc);
+}
+
+/* Footer */
+footer {
+    background: #020617;
+    color: #94a3b8;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>DevOps · DevSecOps · Cloud</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">DevOps</a>
+        <a href="#">DevSecOps</a>
+        <a href="#">Monitoring</a>
+        <a href="#">Cloud</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Modern Devops | DevSecOps | Monitoring Tools | Cloud Platforms</h2>
+    <p>Clean enterprise UI covering DevOps, DevSecOps, Monitoring, and Cloud platforms.</p>
+</div>
+
+<!-- DevOps -->
+<section>
+<h2>DevOps Tools</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Git</h3>
+<p>Distributed version control</p>
+</div>
+
+<div class="card">
+<h3>Jenkins</h3>
+<p>CI/CD automation</p>
+</div>
+
+<div class="card">
+<h3>Docker</h3>
+<p>Containerization platform</p>
+</div>
+
+<div class="card">
+<h3>Kubernetes</h3>
+<p>Container orchestration</p>
+</div>
+
+<div class="card">
+<h3>Terraform</h3>
+<p>Infrastructure as Code</p>
+</div>
+
+</div>
+</section>
+
+<!-- DevSecOps -->
+<section class="devsecops">
+<h2>DevSecOps Tools</h2>
+<div class="grid">
+
+<div class="card">
+<h3>SonarQube</h3>
+<p>Code quality & security</p>
+</div>
+
+<div class="card">
+<h3>Snyk</h3>
+<p>Open-source security</p>
+</div>
+
+<div class="card">
+<h3>Trivy</h3>
+<p>Container vulnerability scanning</p>
+</div>
+
+<div class="card">
+<h3>HashiCorp Vault</h3>
+<p>Secrets & key management</p>
+</div>
+
+</div>
+</section>
+
+<!-- Monitoring -->
+<section class="monitoring">
+<h2>Monitoring Tools</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Prometheus</h3>
+<p>Metrics collection and alerting</p>
+</div>
+
+<div class="card">
+<h3>Grafana</h3>
+<p>Metrics visualization and dashboards</p>
+</div>
+
+<div class="card">
+<h3>ELK Stack</h3>
+<p>Centralized logging and analytics</p>
+</div>
+
+<div class="card">
+<h3>Datadog</h3>
+<p>Infrastructure and application monitoring</p>
+</div>
+
+<div class="card">
+<h3>New Relic</h3>
+<p>Full-stack observability platform</p>
+</div>
+
+</div>
+</section>
+
+<!-- Cloud -->
+<section class="cloud">
+<h2>Cloud Platforms</h2>
+<div class="grid">
+
+<div class="card">
+<h3>AWS</h3>
+<p>Amazon Web Services</p>
+</div>
+
+<div class="card">
+<h3>Microsoft Azure</h3>
+<p>Enterprise cloud platform</p>
+</div>
+
+<div class="card">
+<h3>Google Cloud</h3>
+<p>Scalable cloud services</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2025 | DevOps · DevSecOps · Monitoring · Cloud Tools UI
+</footer>
+
+</body>
+</html>
