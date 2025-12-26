@@ -7,15 +7,44 @@
 
 A sample NGINX application server was deployed, assessed, and migrated as part of this implementation.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Migration](https://github.com/user-attachments/assets/b2bfcc96-1f01-4631-a24d-cee6add44296)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # 🏗️ 2. Architecture Summary
 
 ## ☁️ AWS – Source Environment
 
-     🧩 VPC with Public Subnet
-     🖥️ Assessment Server (Windows EC2)
-     🔄 Migration Server (EC2)
-     🌐 Application Server (Ubuntu EC2 + NGINX)
-     🔐 SSH & HTTPS enabled
+   1) 🧩 VPC with Public Subnet
+   2) 🖥️ Assessment Server (Windows EC2)
+   3) 🔄 Migration Server (EC2)
+   4) 🌐 Application Server (Ubuntu EC2 + NGINX)
+   5) 🔐 SSH & HTTPS enabled
+
+## ☁️ Azure – Target Environment
+
+   1) 📦 Azure Subscription
+   2) 🌐 Azure Virtual Network (VNet)
+   3) 🧭 Azure Migrate Project
+   4) 🔁 Azure Migration Service
+   5) 🖥️ Target Azure Virtual Machine
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🧭 3. High-Level Project Flow
+
+🟦 AWS Server Setup
+        ↓
+🟩 Azure Migrate Project
+        ↓
+🟨 Assessment Appliance Setup
+        ↓
+🟧 Application Deployment (NGINX)
+        ↓
+🟪 Discovery & Assessment
+        ↓
+🔵 Replication
+        ↓
+🟢 Test Migration
+        ↓
+🔴 Final Cutover
