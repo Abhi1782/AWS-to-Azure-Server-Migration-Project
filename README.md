@@ -91,3 +91,9 @@ A sample NGINX application server was deployed, assessed, and migrated as part o
 
 #### ✅ Result:
 Application accessible via browser and ready for migration
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="1366" height="768" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/d446cd37-90d9-4dfa-9064-50a84dc1ee83" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
