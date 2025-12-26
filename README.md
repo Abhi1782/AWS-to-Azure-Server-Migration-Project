@@ -8,7 +8,9 @@
 A sample NGINX application server was deployed, assessed, and migrated as part of this implementation.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![Migration](https://github.com/user-attachments/assets/b2bfcc96-1f01-4631-a24d-cee6add44296)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🏗️ 2. Architecture Summary
@@ -62,3 +64,30 @@ A sample NGINX application server was deployed, assessed, and migrated as part o
 | 🌐 Application Server | NGINX workload         |
 
 📍 Region: AWS Mumbai
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="1366" height="768" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/264b12ce-135e-4eb9-ab03-d46ba005526e" />
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="1366" height="768" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/6ba65887-129d-47f5-96fe-8ecccb262e32" />
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🌐 5. Application Server Setup (NGINX)
+
+### 🔐 5.1 SSH Access
+
+   1) Connected to Ubuntu EC2 via SSH
+   2) Verified OS & network connectivity
+
+### ⚙️ 5.2 NGINX Installation
+
+   1) Installed NGINX
+   2) Enabled & started service
+   3) Verified service status
+   4) Deployed sample web content
+
+#### ✅ Result:
+Application accessible via browser and ready for migration
