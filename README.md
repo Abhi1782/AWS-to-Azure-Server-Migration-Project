@@ -33,18 +33,18 @@ A sample NGINX application server was deployed, assessed, and migrated as part o
 
 # 🧭 3. High-Level Project Flow
 
-🟦 AWS Server Setup
-        ↓
-🟩 Azure Migrate Project
-        ↓
-🟨 Assessment Appliance Setup
-        ↓
-🟧 Application Deployment (NGINX)
-        ↓
-🟪 Discovery & Assessment
-        ↓
-🔵 Replication
-        ↓
-🟢 Test Migration
-        ↓
-🔴 Final Cutover
+    🟦 AWS Server Setup
+            ↓
+    🟩 Azure Migrate Project
+            ↓
+    🟨 Assessment Appliance Setup
+            ↓
+    🟧 Application Deployment (NGINX)
+            ↓
+    🟪 Discovery & Assessment
+            ↓
+    🔵 Replication
+            ↓
+    🟢 Test Migration
+            ↓
+    🔴 Final Cutover
