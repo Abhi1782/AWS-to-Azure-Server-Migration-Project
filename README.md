@@ -286,7 +286,7 @@ Application accessible via browser and ready for migration
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🌐 13.2 Traffic Switch
+### 🌐 13.2 Traffic Switch
 
    1) Public IP / DNS updated
    2) Traffic routed to Azure VM
