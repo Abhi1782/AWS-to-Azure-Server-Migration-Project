@@ -48,3 +48,17 @@ A sample NGINX application server was deployed, assessed, and migrated as part o
     🟢 Test Migration
             ↓
     🔴 Final Cutover
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🟦 4. AWS Server Preparation
+
+## 🖥️ 4.1 EC2 Servers Created
+
+| Server                | Purpose                |
+| --------------------- | ---------------------- |
+| 🧪 Assessment Server  | Discovery & assessment |
+| 🔄 Migration Server   | Replication traffic    |
+| 🌐 Application Server | NGINX workload         |
+
+📍 Region: AWS Mumbai
