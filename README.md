@@ -200,7 +200,7 @@ Application accessible via browser and ready for migration
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📊 9.2 Discovery Results
+## 📊 9.2 Discovery Results
 
    Azure Migrate collected:
                             A) OS details
@@ -212,3 +212,36 @@ Application accessible via browser and ready for migration
 <img width="1366" height="768" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/aaae721a-b518-4ccc-9f26-6c974a11caf1" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+##  🧪 10. Assessment Phase
+
+### 📈 10.1 Readiness Assessment
+
+   Azure Migrate generated:
+                           A) Azure compatibility
+                           B) Recommended VM size
+                           C) Cost estimation
+                           D) Performance insights
+                           
+
+### ✅ 10.2 Assessment Approval
+
+   1) Reviewed findings
+   2) Confirmed no blockers
+   3) Approved for migration
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="1366" height="768" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/c57c0f9e-e013-4bc3-8cda-7a62f758abfe" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+##  🔁 11. Migration & Replication Setup
+
+### ⚙️ 11.1 Replication Enabled
+
+   Configured:
+              A) Target VNet & subnet
+              B) Disk type
+              C) Azure region
+
