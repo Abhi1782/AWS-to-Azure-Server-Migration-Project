@@ -246,3 +246,26 @@ Application accessible via browser and ready for migration
                B) Disk type
                C) Azure region
 
+### 📡 11.2 Replication Monitoring
+
+   1) Initial sync completed
+   2) Continuous replication is active
+   3) Health status monitored
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+##  🧪 12. Test Migration
+
+### 🧫 12.1 Test Cutover
+
+   1) Triggered test migration
+   2) Azure VM created
+   3) AWS source unaffected
+
+### 🔍 12.2 Validation
+
+   1) Verified on Azure:
+   2) VM boot success
+   3) SSH connectivity
+   4) NGINX running
+   5) Application accessible
