@@ -218,11 +218,11 @@ Application accessible via browser and ready for migration
 
 ### 📈 10.1 Readiness Assessment
 
-   Azure Migrate generated:
-                           A) Azure compatibility
-                           B) Recommended VM size
-                           C) Cost estimation
-                           D) Performance insights
+    Azure Migrate generated:
+                            A) Azure compatibility
+                            B) Recommended VM size
+                            C) Cost estimation
+                            D) Performance insights
                            
 
 ### ✅ 10.2 Assessment Approval
