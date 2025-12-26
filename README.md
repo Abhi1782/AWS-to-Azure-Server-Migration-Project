@@ -201,7 +201,7 @@ Application accessible via browser and ready for migration
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📊 9.2 Discovery Results
+### 📊 9.2 Discovery Results
 
     1) Azure Migrate collected:
                                A) OS details
@@ -241,8 +241,8 @@ Application accessible via browser and ready for migration
 
 ### ⚙️ 11.1 Replication Enabled
 
-   Configured:
-              A) Target VNet & subnet
-              B) Disk type
-              C) Azure region
+    Configured:
+               A) Target VNet & subnet
+               B) Disk type
+               C) Azure region
 
