@@ -144,11 +144,11 @@ Application accessible via browser and ready for migration
 
 ## 🧰 7.2 Appliance Installation
 
-   Executed via PowerShell (Admin):
-     1) OS & PowerShell checks
-     2) 64-bit validation
-     3) Selected:
-        A) Physical or other (AWS, GCP, Xen)
+   1) Executed via PowerShell (Admin):
+      A) OS & PowerShell checks
+      B) 64-bit validation
+      C) Selected:
+         a) Physical or other (AWS, GCP, Xen)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
