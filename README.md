@@ -144,7 +144,7 @@ Application accessible via browser and ready for migration
 
 ## 🧰 7.2 Appliance Installation
 
-   1) Executed via PowerShell (Admin):
+    1) Executed via PowerShell (Admin):
       A) OS & PowerShell checks
       B) 64-bit validation
       C) Selected:
@@ -174,10 +174,11 @@ Application accessible via browser and ready for migration
 
 ### 🗝️ 8.1 Linux Credentials Added
 
-   1) SSH-based authentication
-   2) Provided:
-               A) Username
-               B) .pem private key
+    1) SSH-based authentication
+    2) Provided:
+                A) Username
+                B) .pem private key
+                
 ### 🔒 Secure agentless access enabled
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -202,10 +203,10 @@ Application accessible via browser and ready for migration
 
 ## 📊 9.2 Discovery Results
 
-   Azure Migrate collected:
-                            A) OS details
-                            B) CPU, RAM, Disk usage
-                            C) Running services (NGINX)
+    1) Azure Migrate collected:
+                               A) OS details
+                               B) CPU, RAM, Disk usage
+                               C) Running services (NGINX)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
